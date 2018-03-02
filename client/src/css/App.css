@@ -1,0 +1,269 @@
+#app {
+  padding: 4em 2em;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.1);
+}
+
+.loader {
+  margin: 150px !important;
+}
+
+/*========================== For Menu ==========================*/
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 28px;
+  top: 28px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #fff;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #373a47;
+  text-align: center;
+}
+
+.menu-item {
+  font-size: 24px;
+  color: #fff;
+  /*margin: 5px auto;*/
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.menu-item:hover {
+  color: #1fb6ff;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+/*========================= Home Page ===========================*/
+#home-page {
+  padding-top: 50px;
+}
+
+#main-container {
+  height: 90%;
+  width: 100%;
+  padding: 2.5em;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
+  text-align: center !important;
+}
+
+#logo {
+  font-size: 2em;
+  padding: 20px 0;
+  color: #373737;
+}
+
+#logo-x {
+  font-size: 1em;
+  color: #1fb6ff;
+}
+
+#headline-container {
+  /*padding: 0.5em;*/
+}
+
+#headline {
+  font-size: 5em;
+  line-height: 1em;
+  color: #373a47;
+}
+
+#sub-headline {
+  font-size: 1.8em;
+  color: #777;
+}
+
+#CTA-container {
+
+}
+
+#google-button {
+  height: 60px;
+  width: 250px;
+  margin-top: 40px;
+  font-size: 20px;
+  border-width: 0;
+  background: #dd4b39;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.05);
+}
+
+#google-button:hover {
+  box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.1);
+}
+
+#create-new-poll-button {
+  height: 60px;
+  width: 250px;
+  margin-top: 40px;
+  font-size: 20px;
+  border-width: 0;
+  background: #1fb6ff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.05);
+}
+
+#create-new-poll-button:hover {
+  box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.1);
+}
+
+#create-poll-button {
+  background: #1fb6ff;
+  color: #fff;
+}
+
+#cancel-button {
+  background: #fff;
+  color: #373a47;
+}
+
+.option-item {
+  font-size: 1.1em;
+  padding: 0.9em !important;
+  border-bottom: 1px solid #ccc;
+}
+
+#add-option-button {
+  background: #fff;
+  color: #373a47;
+  border: 1px solid #ccc;
+}
+
+.remove-option {
+  color: #aaa;
+}
+
+.remove-option:hover {
+  color: #373a47;
+}
+
+/*========================= Polls Page ===========================*/
+#polls-page {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.cards-container {
+  justify-content: center;
+  max-width: 1800px;
+  padding-top: 0.5em;
+  margin: 0 auto !important;
+}
+
+.card {
+  z-index: 0 !important;
+  width: 400px !important;
+  margin-top: 15px !important;
+  border-bottom: 2px solid #1fb6ff !important;
+}
+
+
+/*========================= My Polls Page ===========================*/
+
+#mypolls-page {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/*========================= My Polls Page ===========================*/
+
+#about-page {
+  padding: 50px;
+  max-width: 700px;
+}
+
+/*========================= Poll Page ===========================*/
+
+#poll-page {
+  padding-top: 50px;
+}
+
+#poll-container {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#vote-section {
+  max-width: 460px;
+}
+
+.checkbox {
+  font-size: 1.4em !important;
+  margin-top: 10px;
+}
+
+#chart-section {
+  margin-top: 20px;
+}
+
+#share-link {
+  font-size: 0.8em;
+}
+
+
+#poll-button-container {
+  margin: 20px 0
+}
+
+#vote-button {
+  background-color: #1fb6ff;
+  width: 150px;
+  color: #fff;
+}
+
+#back-button {
+  background: #fff;
+  color: #373a47;
+  border: 1px solid #373a47;
+}
